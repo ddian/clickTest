@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>test</title>
+</head>
+<style>
+	select,input{
+		width:100px;
+		height:50px;
+		border: 1px solid #ddd;
+		display: block;
+		margin-bottom: 20px;
+	}
+</style>
+<script src="fastclick.js"></script>
+<body>
+	select1
+	<select name="" id="">
+		<option>1</option>
+		<option>11</option>
+		<option>121</option>
+		<option>1244</option>
+		<option>14321</option>
+		<option>18765</option>
+	</select>
+	<br/>
+	select2
+	<select name="" id="">
+		<option>01</option>
+		<option>011</option>
+		<option>0121</option>
+		<option>01244</option>
+		<option>0104321</option>
+		<option>018765</option>
+	</select>
+	<br/>
+	select3
+	<select name="" id="">
+		<option>201</option>
+		<option>2011</option>
+		<option>20121</option>
+		<option>201244</option>
+		<option>20104321</option>
+		<option>2018765</option>
+	</select>
+	<br/>
+	input file
+	<input type="file">
+	<br/>
+	input date
+	<input type="date">
+	<br/>
+	input datetime
+	<input type="datetime">
+<script type="text/javascript">
+	if ('addEventListener' in document) {
+	    document.addEventListener('DOMContentLoaded', function() {
+	        FastClick.attach(document.body);
+	    }, false);
+	}
+	console.log(FastClick);
+</script>
+</body>
+</html>
