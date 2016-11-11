@@ -401,6 +401,7 @@
 		var nodeName = targetElement.nodeName.toLowerCase();
 		var typeAttribute = targetElement.getAttribute('type');
 		if (nodeName === "select" || (typeAttribute === 'date' && nodeName === "input") || (typeAttribute === 'datetime' && nodeName === "input")){
+		    console.log(nodeName);
 		    return false;
 		}
 		if (deviceIsIOS) {
